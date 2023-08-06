@@ -1,0 +1,125 @@
+html {
+    background-color: #e5dada;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*Header*/
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     background-color: aqua;
+}
+
+/* Colors */
+
+.aqua {
+    background-color: #d10b0b;
+    text-align: center;
+    border: 1px solid;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.aquamarine {
+    background-color:#ff4500;
+    text-align: center;
+    border: 1px solid;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.lightskyblue {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 1px solid;
+    margin: 5px;
+    font-size: 18px;
+}
+#colorh2 {
+    
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.colors {
+    border: 2px solid black;
+    margin: 25px; 
+    padding-bottom: 20px;  
+}
+
+
+/*Fonts*/
+
+.fonts {
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 0px;
+
+}
+
+.fontitalic {
+    font-style: italic;
+    ;
+} 
+
+.fontbold {
+    font-weight: 700;
+}
+.font1{
+    font-family:'Playfair Display', serif;
+
+}
+
+.font2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.font3{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Text Style */
+
+.textlist {
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text {
+    border: 2px solid;
+    margin: 20px;
+    display: auto;
+}
+
+.text1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.h2text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+.paratext {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
