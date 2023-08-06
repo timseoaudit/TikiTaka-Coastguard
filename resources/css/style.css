@@ -32,6 +32,12 @@ header {
     max-height: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .title h1 {
+      font-size: 1rem;
+    }
+}
+
 .nav {
     text-align: center;
     font-size: 1.5rem;
@@ -43,7 +49,38 @@ header {
 }
 
 .login {
-    text-align: right;
+    position: relative;
+    top: -4rem;
+    left: 78rem;
+}
+
+.login button {
+    color: #f5f5f5;
+    background-color: #00ff44;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    box-shadow: gray 0.2rem 0.2rem 0.2rem;
+}
+
+.login button:hover {
+    background-color: #00ff44;
+    color: #000000;
+}
+
+.login button:active {
+    position: absolute;
+    background-color: #00ff44;
+    color: #000000;
+    box-shadow: none;
+    top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .login {
+      visibility: hidden;
+    }
 }
 /* Main */
 .about {
@@ -98,11 +135,23 @@ span {
     font-size: 2.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+    #join_us .email {
+        visibility: hidden;
+    }
+}
+
 #join_us .phone {
     position: absolute;
     margin-left: 80%;
     color: #f5f5f5;
     font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #join_us .phone {
+        visibility: hidden;
+    }
 }
 
 #join_us button {
