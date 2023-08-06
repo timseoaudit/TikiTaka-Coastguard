@@ -1,0 +1,133 @@
+/* General */
+html {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14
+    
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* Header */
+header {
+    background: 
+    repeating-conic-gradient(#ff4500 0% 25%, transparent 0% 50%) 
+      50% / 6rem 6rem;
+    height: 6rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    max-height: 3rem;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.5rem;
+    word-spacing: 0.5rem;
+}
+
+.nav :hover {
+    color: #000000;
+}
+
+.login {
+    text-align: right;
+}
+/* Main */
+.about {
+    background-image: url(../images/Helo\,\ openwater\,\ Boat.jpg);
+    background-size: cover;
+    min-height: 35rem; 
+    margin-top: 1rem;
+}
+
+
+.about h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #f5f5f5;
+}
+
+.description {
+    position: absolute;
+   margin-left: 5%;
+    color: #f5f5f5;
+}
+
+span {
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#join_us {
+    background-image: url(../images/Oban\ Station.jpg);
+    background-size:cover;
+    min-height: 40rem;
+    margin-top: 1rem;
+}
+
+#join_us h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #f5f5f5;
+}
+
+#join_us .email {
+    position: absolute;
+    margin-left: 5%;
+    color: #f5f5f5;
+    font-size: 2.5rem;
+}
+
+#join_us .phone {
+    position: absolute;
+    margin-left: 80%;
+    color: #f5f5f5;
+    font-size: 2.5rem;
+}
+
+#join_us button {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 10.5rem;
+    margin-bottom: 2rem;
+    color: #f5f5f5;
+    background-color: #00ff44;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: gray 0.2rem 0.2rem 0.2rem;
+}
+
+#join_us button:hover {
+    background-color: #00ff44;
+    color: #000000;
+}
+
+#join_us button:active {
+    background-color: #00ff44;
+    color: #000000;
+    margin-top: 10.7rem;
+    box-shadow: none;
+}
