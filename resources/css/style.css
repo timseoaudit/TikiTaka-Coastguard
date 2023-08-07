@@ -24,7 +24,7 @@ header {
     margin-left: 0;
     margin-right: 0;
 }
-
+/* Title */
 .title h1{
     text-align: center;
     margin-top: 1rem;
@@ -32,12 +32,12 @@ header {
     max-height: 3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 678px) {
     .title h1 {
       font-size: 1rem;
     }
 }
-
+/* Navigation */
 .nav {
     text-align: center;
     font-size: 1.5rem;
@@ -47,7 +47,7 @@ header {
 .nav :hover {
     color: #000000;
 }
-
+/* Login */
 .login {
     position: relative;
     top: -4rem;
@@ -75,14 +75,20 @@ header {
     background-color: #00ff44;
     color: #000000;
     box-shadow: none;
-    top: 2rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 678px) {
+    .login {
+      visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
     .login {
       visibility: hidden;
     }
 }
 /* Main */
+/* About */
 .about {
     background-image: url(../images/Helo\,\ openwater\,\ Boat.jpg);
     background-size: cover;
@@ -111,7 +117,7 @@ span {
     font-style: italic;
     text-decoration: underline;
 }
-
+/* Join Us */
 #join_us {
     background-image: url(../images/Oban\ Station.jpg);
     background-size:cover;
@@ -128,14 +134,20 @@ span {
     color: #f5f5f5;
 }
 
-#join_us .email {
+/*#join_us .email {
     position: absolute;
     margin-left: 5%;
     color: #f5f5f5;
     font-size: 2.5rem;
+}*/
+
+#join_us .email {
+    text-align: center;
+    color:#f5f5f5;
+    font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 100px) {
     #join_us .email {
         visibility: hidden;
     }
@@ -152,12 +164,12 @@ span {
     #join_us .phone {
         visibility: hidden;
     }
-}
+}*/
 
 #join_us button {
     position: absolute;
     margin-left: 43%;
-    margin-top: 10.5rem;
+    margin-top: 4.5rem;
     margin-bottom: 2rem;
     color: #f5f5f5;
     background-color: #00ff44;
@@ -177,6 +189,62 @@ span {
 #join_us button:active {
     background-color: #00ff44;
     color: #000000;
-    margin-top: 10.7rem;
+    margin-top: 4.7rem;
     box-shadow: none;
+}
+/* Gallery */
+.gallery_header {
+    text-align: center;
+    
+}
+
+.figures {
+    background-image: url(../images/Sunset\ Halo.jpg);
+    background-size: cover;
+}
+
+.figure img {
+    height: auto;
+    max-width: 28.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+}
+
+@media only screen and (max-width: 540px) {
+    .figure img {
+      max-width: 15rem;
+    }
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure figcaption {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.copyright {
+    text-align: left;
+    font-size: 0.5rem;
+}
+
+.emergency {
+    text-align: center;
+    border: 2px solid #d10b0b;
+    background-color: #d10b0b;
+}
+
+.emergency p {
+    color: #f5f5f5;
 }
